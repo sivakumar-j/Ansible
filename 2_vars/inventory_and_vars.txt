@@ -1,0 +1,21 @@
+cat inventory
+[media]
+media1
+media2
+[webservers]
+web1
+web2
+
+
+cat ./host_vars/web1
+script_files: /usr/local/scripts
+
+
+cat ./group_vars/media
+media_content: /var/media/content/
+media_index: /opt/media/mediaIndex
+
+
+cat ./group_vars/webservers
+httpd_webroot: /var/www/
+httpd_config: /etc/httpd/
