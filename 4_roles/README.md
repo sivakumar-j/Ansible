@@ -10,14 +10,14 @@ echo "---" > baseline/tasks/main.yml
 
 cp /home/ansible/resources/motd.j2 baseline/templates
 
-cat > baseline/tasks/deploy_motd.yml
-cat > baseline/tasks/deploy_nagios.yml
-cat >  baseline/tasks/edit_hosts.yml
-cp /home/ansible/resources/authorized_keys /etc/ansible/roles/baseline/files/
-cat > baseline/tasks/deploy_noc_user.yml
-cat > baseline/tasks/main.yml
-cd /home/ansible/
-cat > resources/web.yml
+* cat > baseline/tasks/deploy_motd.yml
+* cat > baseline/tasks/deploy_nagios.yml
+* cat >  baseline/tasks/edit_hosts.yml
+* cp /home/ansible/resources/authorized_keys /etc/ansible/roles/baseline/files/
+* cat > baseline/tasks/deploy_noc_user.yml
+* cat > baseline/tasks/main.yml
+* cd /home/ansible/
+* cat > resources/web.yml
 
 ansible-playbook resources/web.yml
 Check Our Work
