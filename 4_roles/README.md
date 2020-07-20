@@ -1,4 +1,4 @@
-Create a Role Called baseline in /etc/ansible/roles
+Create a Role Called baseline in /etc/ansible/roles.. this is present in our folder /etc
 Create the structure needed for the role:
 
 cd /etc/ansible/roles/
