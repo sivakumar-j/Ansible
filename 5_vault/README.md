@@ -1,6 +1,6 @@
 ansible-vault encrypt /home/ansible/secret
 
-echo "<pass>" > /home/ansible/vault
+echo "<somepass>" > /home/ansible/vault
 
 ansible-playbook --vault-password-file /home/ansible/vault /home/ansible/secPage.yml
 
